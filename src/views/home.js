@@ -21,19 +21,19 @@ const Home = (props) => {
           <div className="home-max-width max-content-container">
             <div className="home-heading-container">
               <h1 className="home-text Heading1">
-                <span>{/* We are a creative agency based */}</span>
+                <span>Welcome to "PopM"</span>
                 <br></br>
-                <span>in Massachusetts</span>
               </h1>
               <span className="home-text03">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod
+                We blend the vibrant energy of pop music with the strategic 
+                finesse of social media marketing. 
                 </span>
                 <br></br>
                 <span>
                   {' '}
-                  tempor incididunt ut labore et dolore magna aliqua.
+                  Just like your favorite pop hits, we're here to make waves, 
+                  catch attention, and create a harmonious buzz for your business!
                 </span>
               </span>
               <button className="home-primary button-primary button-lg button">
@@ -116,7 +116,8 @@ const Home = (props) => {
             <div className="home-cards-container">
               <ServicesCard></ServicesCard>
               <ServicesCard
-                text="Copy-writting"
+                text="Product Shoot"
+                text1="Capture the essence of your product with our picture-perfect shoots."
                 image_src="/file-document-200w.png"
               ></ServicesCard>
               <ServicesCard
@@ -135,8 +136,7 @@ const Home = (props) => {
               </h2>
               <span className="home-text15">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut
+                Discover a World of Possibilities: Explore Our Portfolio Today!
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -144,10 +144,10 @@ const Home = (props) => {
                   />
                 </span>
                 <br></br>
-                <span>
+                {/* <span>
                   labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                   nostrud exercitation.
-                </span>
+                </span> */}
               </span>
               <button className="button-secondary button-lg button">
                 See all projects
@@ -200,7 +200,7 @@ const Home = (props) => {
               <span className="home-text25">about us</span>
               <h2 className="home-text26 Heading2">
                 <span>
-                  We build brands with
+                We're maestros crafting the perfect online symphony for your brand.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -208,11 +208,10 @@ const Home = (props) => {
                   />
                 </span>
                 <br></br>
-                <span>purpose and impact</span>
+                {/* <span>we're maestros crafting the perfect online symphony for your brand</span> */}
               </h2>
               <span className="home-text30">
-                We are a full-service digital creative agency with brick and
-                mortar offices and plenty of in-house talent.
+              We understand that in the world of social media, catchy tunes and captivating content go hand in hand. 
               </span>
               <div className="home-checklist">
                 <div className="home-check-item">
@@ -220,7 +219,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text31">
-                    Quality services and support all time
+                  Social Media Strategy Development
                   </span>
                 </div>
                 <div className="home-check-item1">
@@ -228,7 +227,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text32">
-                    Long-term strategy development
+                  Platform Management
                   </span>
                 </div>
                 <div className="home-check-item2">
@@ -236,7 +235,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text33">
-                    FREE Brand Audit for startups
+                  Paid Advertising Campaigns
                   </span>
                 </div>
                 <div className="home-check-item3">
@@ -244,7 +243,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text34">
-                    Over 10 years in the business
+                  E-commerce Integration
                   </span>
                 </div>
                 <div className="home-check-item4">
@@ -258,7 +257,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text36">
-                    Support in any implementation
+                    Implementation Support
                   </span>
                 </div>
               </div>
@@ -336,7 +335,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="section-container">
+        {/* <div className="section-container">
           <div className="home-max-width5 max-content-container">
             <span className="home-text51">from blog</span>
             <h2 className="home-text52 Heading2">
@@ -376,7 +375,7 @@ const Home = (props) => {
               ></BlogCard>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="home-banner section-container">
           <div className="home-max-width6 max-content-container">
             <span className="home-text58">what are you waiting?</span>
@@ -385,8 +384,7 @@ const Home = (props) => {
             </h2>
             <span className="home-text61">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt
+              "Let's Unite and Elevate: Collaborate with Us Today!"
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -394,10 +392,10 @@ const Home = (props) => {
                 />
               </span>
               <br></br>
-              <span>
+              {/* <span>
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                 nostrud exercitation.
-              </span>
+              </span> */}
             </span>
             <button className="home-primary3 button-lg button-secondary-white button">
               Contact us
