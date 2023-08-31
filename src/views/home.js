@@ -21,19 +21,19 @@ const Home = (props) => {
           <div className="home-max-width max-content-container">
             <div className="home-heading-container">
               <h1 className="home-text Heading1">
-                <span>{/* We are a creative agency based */}</span>
+                <span>Welcome to "PopM" </span>
                 <br></br>
-                <span>in Massachusetts</span>
               </h1>
               <span className="home-text03">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod
+                We blend the vibrant energy of pop music with the strategic 
+                finesse of social media marketing. 
                 </span>
                 <br></br>
                 <span>
                   {' '}
-                  tempor incididunt ut labore et dolore magna aliqua.
+                  Just like your favorite pop hits, we're here to make waves, 
+                  catch attention, and create a harmonious buzz for your business!
                 </span>
               </span>
               <button className="home-primary button-primary button-lg button">
@@ -116,11 +116,13 @@ const Home = (props) => {
             <div className="home-cards-container">
               <ServicesCard></ServicesCard>
               <ServicesCard
-                text="Copy-writting"
+                text="Product Shoot"
+                text1="Capture the Essence of your product with our picture-perfect shoots."
                 image_src="/file-document-200w.png"
               ></ServicesCard>
               <ServicesCard
-                text="Product Design"
+                text="Ad Campaign"
+                text1="Elevate your brand with PopM, where creativity meets conversion in every Ad Campaign."
                 image_src="/dice-5-200h.png"
               ></ServicesCard>
             </div>
@@ -200,7 +202,7 @@ const Home = (props) => {
               <span className="home-text25">about us</span>
               <h2 className="home-text26 Heading2">
                 <span>
-                  We build brands with
+                We're not just marketers;
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -208,11 +210,12 @@ const Home = (props) => {
                   />
                 </span>
                 <br></br>
-                <span>purpose and impact</span>
+                {/* <span></span> */}
               </h2>
               <span className="home-text30">
-                We are a full-service digital creative agency with brick and
-                mortar offices and plenty of in-house talent.
+              We're maestros crafting the perfect online symphony for your brand.
+              We understand that in the world of social media, catchy tunes and 
+              captivating content go hand in hand.
               </span>
               <div className="home-checklist">
                 <div className="home-check-item">
@@ -220,7 +223,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text31">
-                    Quality services and support all time
+                    Social Media Strategy Development
                   </span>
                 </div>
                 <div className="home-check-item1">
@@ -228,7 +231,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text32">
-                    Long-term strategy development
+                    Platform Management
                   </span>
                 </div>
                 <div className="home-check-item2">
@@ -236,7 +239,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text33">
-                    FREE Brand Audit for startups
+                    Advertising Campaigns
                   </span>
                 </div>
                 <div className="home-check-item3">
@@ -244,7 +247,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text34">
-                    Over 10 years in the business
+                    E-Commerce Integration
                   </span>
                 </div>
                 <div className="home-check-item4">
@@ -258,7 +261,7 @@ const Home = (props) => {
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
                   <span className="home-text36">
-                    Support in any implementation
+                    Implementation Support
                   </span>
                 </div>
               </div>
@@ -385,8 +388,7 @@ const Home = (props) => {
             </h2>
             <span className="home-text61">
               <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt
+                Let's Unite and Elevate: Collaborate with us today!
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -394,10 +396,6 @@ const Home = (props) => {
                 />
               </span>
               <br></br>
-              <span>
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation.
-              </span>
             </span>
             <button className="home-primary3 button-lg button-secondary-white button">
               Contact us
@@ -424,10 +422,10 @@ const Home = (props) => {
               <div className="home-contact-container">
                 <span className="home-text73">Contact Us</span>
                 <span className="home-text74">
-                  <span>2157 Village View</span>
+                  <span>FH425, Aman</span>
                   <br></br>
                   <span>
-                    Drive, Old Fort
+                    House,
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -436,7 +434,7 @@ const Home = (props) => {
                   </span>
                   <br></br>
                   <span>
-                    Myers Florida
+                    Scheme No. 54
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -444,7 +442,16 @@ const Home = (props) => {
                     />
                   </span>
                   <br></br>
-                  <span>33901</span>
+                  <span>
+                    Vijay Nagar, Indore
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>452010</span>
                 </span>
               </div>
             </div>
@@ -472,7 +479,7 @@ const Home = (props) => {
               />
             </span>
             <span className="home-text85">
-              aesthetics
+              PopM Consultants
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -480,14 +487,14 @@ const Home = (props) => {
               />
             </span>
             <span>
-              | Designed by
+              | Developed by
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <span className="home-text87">teleporhq.io</span>
+            <span className="home-text87">Sandesh Ratnawat</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
